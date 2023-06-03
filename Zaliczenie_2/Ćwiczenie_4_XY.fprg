@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-03 08:18:39 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDY6MzM6NTYgUE07MjYxMg=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDY6NTA6MzQgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNTo1MTowNyBQTTvEhndpY3plbmllXzJfT2J3w7NkLmZwcmc7NzkyMA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDg6MTg6MzkgUE07OTsyNzM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="CzteryLiczby"/>
+        </body>
+    </function>
+    <function name="CzteryLiczby" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Podaj liczby a,b,c i d aby obliczy&#263; licznik X i mianownik Y&quot;" newline="True"/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <declare name="x, y, XY" type="Real" array="False" size=""/>
+            <declare name="a, b, c, d" type="Real" array="False" size=""/>
+            <output expression="&quot;Podaj A&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Podaj B&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Podaj C&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Podaj D&quot;" newline="True"/>
+            <input variable="d"/>
+            <if expression="b==0 || d==0">
+                <then>
+                    <output expression="&quot;Brak rozwi&#261;za&#324;, poniewa&#380; liczba b lub d wynosi 0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="XY" expression="(a*d)/(b*d)+(c*b)/(d*b)"/>
+                    <assign variable="x" expression="(a*d)"/>
+                    <assign variable="y" expression="(c*b)"/>
+                    <while expression="x%2==0 &amp;&amp; y%2==0">
+                        <assign variable="x" expression="x/2"/>
+                        <assign variable="y" expression="y/2"/>
+                    </while>
+                    <while expression="x%3==0 &amp;&amp; y%3==0">
+                        <assign variable="x" expression="x/3"/>
+                        <assign variable="y" expression="y/3"/>
+                    </while>
+                    <while expression="x%5==0 &amp;&amp; y%5==0">
+                        <assign variable="x" expression="x/5"/>
+                        <assign variable="y" expression="y/5"/>
+                    </while>
+                    <output expression="&quot;Licznik X wynosi: &quot; &amp;x" newline="True"/>
+                    <output expression="&quot;Mianownik Y wynsi: &quot; &amp;y" newline="True"/>
+                    <output expression="&quot;X/Y wynosi:&quot; &amp;XY" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Czy chcesz jeszcze raz obliczy&#263; X i Y? Je&#347;li tak to wpisz TAK.&quot;" newline="True"/>
+            <input variable="Decyzja"/>
+            <if expression="Decyzja == &quot;TAK&quot;">
+                <then>
+                    <call expression="CzteryLiczby"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

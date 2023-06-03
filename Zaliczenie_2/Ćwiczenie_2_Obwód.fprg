@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-04 01:08:13 AM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDU6NTE6MDcgUE07MjYwNw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDY6Mjk6NTEgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNjoxODo0OSBQTTvEhndpY3plbmllXzNfQk1JLmZwcmc7NzUxMw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDQ7MDE6MDg6MTMgQU07MTU7Mjc0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="Obw&#243;d"/>
+        </body>
+    </function>
+    <function name="Obw&#243;d" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Obw&#243;d, Pole, Promie&#324;, LiczbaPi" type="Real" array="False" size=""/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <assign variable="LiczbaPi" expression="3.141592"/>
+            <output expression="&quot;Podaj pole ko&#322;a aby obliczy&#263; obw&#243;d&quot;" newline="True"/>
+            <input variable="Pole"/>
+            <assign variable="Promie&#324;" expression="sqrt(Pole/LiczbaPi)"/>
+            <assign variable="Obw&#243;d" expression="2*LiczbaPi*(sqrt(Pole/LiczbaPi))"/>
+            <output expression="&quot;Obw&#243;d ko&#322;a o polu: &quot; &amp;Pole &amp;&quot; wynosi: &quot; &amp;Obw&#243;d" newline="True"/>
+            <output expression="&quot;Czy chcesz jeszcze raz obliczy&#263; obw&#243;d? Je&#347;li tak to wpisz TAK.&quot;" newline="True"/>
+            <input variable="Decyzja"/>
+            <if expression="Decyzja == &quot;TAK&quot;">
+                <then>
+                    <call expression="Obw&#243;d"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-04 01:11:38 AM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDg6MTg6NDAgUE07MjYxMA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDg6MjQ6MjkgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNTo1MTowNyBQTTvEhndpY3plbmllXzJfT2J3w7NkLmZwcmc7NzkyNw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDQ7MDE6MTE6MzggQU07NjsyNzAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="MniejszaWieksza"/>
+        </body>
+    </function>
+    <function name="MniejszaWieksza" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <output expression="&quot;Podaj dwie liczby A i B&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;Liczby s&#261; takie same&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&gt;b">
+                        <then>
+                            <output expression="&quot;Liczba A=&quot;&amp;A &amp;&quot; jest wi&#281;ksza od B=&quot;&amp;B" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Liczba B=&quot; &amp;b &amp;&quot; jest wi&#281;ksza od A=&quot; &amp;A" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Czy chcesz por&#243;wna&#263; kolejne dwie liczby? Je&#347;li chcesz to wpisz TAK&quot;" newline="True"/>
+            <input variable="Decyzja"/>
+            <if expression="Decyzja == &quot;TAK&quot;">
+                <then>
+                    <call expression="MniejszaWieksza"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

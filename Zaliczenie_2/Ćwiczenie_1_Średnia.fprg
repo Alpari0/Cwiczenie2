@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-04 01:08:34 AM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDU6MTI6MDkgUE07MjYwNg=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDY6MzE6MDQgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNjoxODo0OSBQTTvEhndpY3plbmllXzNfQk1JLmZwcmc7NzUwNA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDQ7MDE6MDg6MzQgQU07ODsyNzA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="&#346;rednia"/>
+        </body>
+    </function>
+    <function name="&#346;rednia" type="None" variable="LiczbaNr1">
+        <parameters/>
+        <body>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <declare name="Nr1, Nr2, Nr3, &#347;rednia" type="Real" array="False" size=""/>
+            <output expression="&quot;Podaj pierwsz&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr1"/>
+            <output expression="&quot;Podaj drug&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr2"/>
+            <output expression="&quot;Podaj trzeci&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr3"/>
+            <assign variable="&#347;rednia" expression="(Nr1+Nr2+Nr3)/3"/>
+            <output expression="&quot;&#346;rednia podanych przez Ciebie liczb wynosi: &quot; &amp;&#347;rednia" newline="True"/>
+            <output expression="&quot;Czy chcesz jeszcze raz obliczy&#263; &#347;redni&#261; nowych liczb? Je&#347;li tak to wpisz TAK&quot;" newline="True"/>
+            <input variable="Decyzja"/>
+            <if expression="Decyzja == &quot;TAK&quot;">
+                <then>
+                    <call expression="&#346;rednia"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

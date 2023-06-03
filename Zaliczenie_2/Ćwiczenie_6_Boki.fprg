@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-04 01:16:20 AM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDg6Mjg6MDYgUE07MjYxMw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDM7MDg6MzU6MzIgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNjozMzo1NiBQTTvEhndpY3plbmllXzRfWFkuZnByZzs3NDY4"/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDQ7MDE6MTY6MjAgQU07NzsyNjk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="Boki"/>
+        </body>
+    </function>
+    <function name="Boki" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Podaj wymiary bok&#243;w tr&#243;jk&#261;ta&quot;" newline="True"/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <declare name="a, b, c, suma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Podaj bok A&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Podaj bok B&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Podaj bok C&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a+b&lt;=c||b+c&lt;=a||c+a&lt;=b">
+                <then>
+                    <output expression="&quot;Nie mo&#380;na utworzy&#263; tr&#243;jk&#243;ta, poniewa&#380; suma dw&#243;ch bok&#243;w jest mniejsza od d&#322;ugo&#347;ci trzeciego boku&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a==b||b==c||c==a">
+                        <then>
+                            <output expression="&quot;Mo&#380;na utworzy&#263; tr&#243;jk&#261;t r&#243;wnoboczny o bokach o d&#322;ugo&#347;ci: &quot; &amp;a&amp;&quot; &quot; &amp;b&amp;&quot; &quot; &amp;c" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Nie mo&#380;na utworzy&#263; tr&#243;jk&#261;ta r&#243;wnobocznego o bokach o d&#322;ugo&#347;ci: &quot; &amp;a&amp;&quot; &quot; &amp;b&amp;&quot; &quot; &amp;c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Czy chcesz sprawdzi&#263; nast&#281;pny tr&#243;jk&#261;t? Wpisz TAK&quot;" newline="True"/>
+            <input variable="Decyzja"/>
+            <if expression="Decyzja == &quot;TAK&quot;">
+                <then>
+                    <call expression="Boki"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
