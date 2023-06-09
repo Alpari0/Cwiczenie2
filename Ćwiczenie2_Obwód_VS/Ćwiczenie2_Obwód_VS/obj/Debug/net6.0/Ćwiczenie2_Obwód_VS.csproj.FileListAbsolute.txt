@@ -1,0 +1,15 @@
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\bin\Debug\net6.0\Ćwiczenie2_Obwód_VS.exe
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\bin\Debug\net6.0\Ćwiczenie2_Obwód_VS.deps.json
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\bin\Debug\net6.0\Ćwiczenie2_Obwód_VS.runtimeconfig.json
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\bin\Debug\net6.0\Ćwiczenie2_Obwód_VS.dll
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\bin\Debug\net6.0\Ćwiczenie2_Obwód_VS.pdb
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.csproj.AssemblyReference.cache
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.AssemblyInfoInputs.cache
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.AssemblyInfo.cs
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.csproj.CoreCompileInputs.cache
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.dll
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\refint\Ćwiczenie2_Obwód_VS.dll
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.pdb
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\Ćwiczenie2_Obwód_VS.genruntimeconfig.cache
+D:\Programy\Visual Studio\Projects\Cwiczenie2\Ćwiczenie2_Obwód_VS\Ćwiczenie2_Obwód_VS\obj\Debug\net6.0\ref\Ćwiczenie2_Obwód_VS.dll
