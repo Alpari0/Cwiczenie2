@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 05:02:44 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDE6MjkgUE07MjYxMg=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDE6MzIgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswODozODoxMiBQTTvEhndpY3plbmllXzdfS2/Fgm8uZnByZzs3OTA4"/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDI6NDQgUE07MTsyNzE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Podaj koordynaty A i B twojego punktu oraz promie&#324; ko&#322;a&quot;" newline="True"/>
+            <declare name="a, b, x, y, r" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="0"/>
+            <output expression="&quot;A&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;B&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Promie&#324;&quot;" newline="True"/>
+            <input variable="r"/>
+            <if expression="((x-a)*(x-a))+((y-b)*(y-b))&gt;=r*r">
+                <then>
+                    <output expression="&quot;Punkt le&#380;y na lini lub poza lini&#261; ko&#322;a&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Punkt le&#380;y w obr&#281;bie ko&#322;a&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

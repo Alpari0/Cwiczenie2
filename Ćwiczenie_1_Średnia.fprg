@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 04:47:16 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6Mzk6MjQgUE07MjYxNw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6Mzk6MjkgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNToxMjowOSBQTTvEhndpY3plbmllXzFfxZpyZWRuaWEuZnByZzs4MjY3"/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDc6MTYgUE07MTsyNzI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <declare name="Nr1, Nr2, Nr3, &#347;rednia" type="Real" array="False" size=""/>
+            <output expression="&quot;Podaj pierwsz&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr1"/>
+            <output expression="&quot;Podaj drug&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr2"/>
+            <output expression="&quot;Podaj trzeci&#261; liczb&#281;&quot;" newline="True"/>
+            <input variable="Nr3"/>
+            <assign variable="&#347;rednia" expression="(Nr1+Nr2+Nr3)/3"/>
+            <output expression="&quot;&#346;rednia podanych przez Ciebie liczb wynosi: &quot; &amp;&#347;rednia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

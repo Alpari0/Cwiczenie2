@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 04:47:49 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDc6MzUgUE07MjYxOA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDc6MzcgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNTo1MTowNyBQTTvEhndpY3plbmllXzJfT2J3w7NkLmZwcmc7NzkzMw=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDc6NDkgUE07MTsyNzMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Obw&#243;d, Pole, Promie&#324;, LiczbaPi" type="Real" array="False" size=""/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <assign variable="LiczbaPi" expression="3.141592"/>
+            <output expression="&quot;Podaj pole ko&#322;a aby obliczy&#263; obw&#243;d&quot;" newline="True"/>
+            <input variable="Pole"/>
+            <assign variable="Promie&#324;" expression="sqrt(Pole/LiczbaPi)"/>
+            <assign variable="Obw&#243;d" expression="2*LiczbaPi*(sqrt(Pole/LiczbaPi))"/>
+            <output expression="&quot;Obw&#243;d ko&#322;a o polu: &quot; &amp;Pole &amp;&quot; wynosi: &quot; &amp;Obw&#243;d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

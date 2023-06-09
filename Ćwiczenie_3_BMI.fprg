@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 04:51:10 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDk6NDggUE07MjYyNA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NDk6NTEgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswNjoxODo0OSBQTTvEhndpY3plbmllXzNfQk1JLmZwcmc7NzUxOQ=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NTE6MTAgUE07MTsyNzE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Waga, Wzrost, BMI" type="Real" array="False" size=""/>
+            <declare name="Decyzja" type="String" array="False" size=""/>
+            <output expression="&quot;Podaj sw&#243;j wzrost w cm &quot;" newline="True"/>
+            <input variable="Wzrost"/>
+            <output expression="&quot;Podaj swoj&#261; wag&#281;&quot;" newline="True"/>
+            <input variable="Waga"/>
+            <assign variable="BMI" expression="Waga/((Wzrost/100)*(Wzrost/100))"/>
+            <output expression="&quot;Twoje BMI wynosi: &quot; &amp;BMI" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

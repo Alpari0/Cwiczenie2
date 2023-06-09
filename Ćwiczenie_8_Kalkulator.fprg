@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 05:11:55 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MTE6MzUgUE07MjYxMA=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MTE6MzcgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswOTowNTowOCBQTTvEhndpY3plbmllXzhfS2Fsa3VsYXRvci5mcHJnOzgzNDY="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MTE6NTUgUE07MjsyNzIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Podaj dwie liczby A i B&quot;" newline="True"/>
+            <declare name="a, b, wynik, dzia&#322;anie" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <output expression="&quot;Dodawanie - 1, Odejmowanie - 2, mno&#380;enie - 3, dzielenie - 4&quot;" newline="True"/>
+            <input variable="dzia&#322;anie"/>
+            <if expression="dzia&#322;anie==1">
+                <then>
+                    <output expression="a+b" newline="True"/>
+                </then>
+                <else>
+                    <if expression="dzia&#322;anie==2">
+                        <then>
+                            <output expression="a-b" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="dzia&#322;anie==3">
+                                <then>
+                                    <output expression="a*b" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="dzia&#322;anie==4">
+                                        <then>
+                                            <if expression="B==0">
+                                                <then>
+                                                    <output expression="A&amp;&quot;/0&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="a/b" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Wybierz poprawne dzia&#322;anie z zakresu 1-4&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

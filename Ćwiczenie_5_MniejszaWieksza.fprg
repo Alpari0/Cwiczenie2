@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 04:59:38 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NTg6NTUgUE07MjYyMg=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NTg6NTcgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswODoxODo0MCBQTTvEhndpY3plbmllXzVfTW5pZWpzemFXaWVrc3phLmZwcmc7ODg3MQ=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDQ6NTk6MzggUE07MTsyNzMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Podaj dwie liczby A i B&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;Liczby s&#261; takie same&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&gt;b">
+                        <then>
+                            <output expression="&quot;Liczba A=&quot;&amp;A &amp;&quot; jest wi&#281;ksza od B=&quot;&amp;B" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Liczba B=&quot; &amp;b &amp;&quot; jest wi&#281;ksza od A=&quot; &amp;A" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

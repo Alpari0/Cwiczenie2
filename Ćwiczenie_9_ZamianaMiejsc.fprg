@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 05:07:45 PM"/>
+        <attribute name="created" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDY6MDkgUE07MjYxNQ=="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDY6MTEgUE07MTtBZHJpYW47TVNJLUdMNjM5U0Q7MjAyMy0wNi0wMzswOToxNDozMyBQTTvEhndpY3plbmllXzlfWmFtaWFuYU1pZWpzYy5mcHJnOzg1OTk="/>
+        <attribute name="edited" value="QWRyaWFuO01TSS1HTDYzOVNEOzIwMjMtMDYtMDk7MDU6MDc6NDUgUE07MTsyNzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Podaj nast&#281;puj&#261;co trzy liczby A, B i C&quot;" newline="True"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <output expression="&quot;Twoje liczby to: A=&quot; &amp;a &amp;&quot;,B=&quot; &amp;b&amp;&quot;,C=&quot; &amp;c" newline="True"/>
+            <assign variable="a" expression="a-b"/>
+            <assign variable="b" expression="b+a"/>
+            <assign variable="a" expression="b-a"/>
+            <assign variable="a" expression="a-c"/>
+            <assign variable="c" expression="c+a"/>
+            <assign variable="a" expression="c-a"/>
+            <output expression="&quot;Po zamianie liczb miejscami efekt ko&#324;cowy wygl&#261;da nast&#281;puj&#261;co: A=&quot;&amp;a &amp;&quot;,B=&quot;&amp;b &amp;&quot;,C=&quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
